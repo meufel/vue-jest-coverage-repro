@@ -1,0 +1,21 @@
+{
+  "name": "vue-jest-coverage",
+  "version": "0.0.1",
+  "description": "Repro project for a vue-jest issue",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --config ./tests/jest.conf.js --verbose ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meufel/vue-jest-coverage-repro.git"
+  },
+  "author": "meufel",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.1",
+    "@vue/vue2-jest": "^29.1.0",
+    "jest": "^29.0.3"
+  }
+}
